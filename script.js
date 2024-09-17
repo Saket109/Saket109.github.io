@@ -74,7 +74,7 @@
 var navMenuAnchorTags = document.querySelectorAll('.nav-menu a');
 var interval;
 
-for(let i=0;i<navMenuAnchorTags.length;i++){
+for(let i=0;i<navMenuAnchorTags.length-1;i++){
     navMenuAnchorTags[i].addEventListener('click',function(event){
         event.preventDefault();
         var targetSectionId = this.textContent.trim().toLowerCase();

@@ -228,7 +228,12 @@ section:nth-child(2n){
 }
 
 .fifty-percent{
-    width: 45%;
+    width: 50%;
+    height: inherit;
+}
+
+.seventy-percent{
+    width: 70%;
     height: inherit;
 }
 
@@ -255,6 +260,7 @@ section:nth-child(2n){
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    box-shadow: 0 0 20px #74ADC8;
 }
 
 .portfolio-name img{
@@ -263,7 +269,7 @@ section:nth-child(2n){
 }
 
 .portfolio-name:hover{
-    box-shadow: 0 0 20px #74ADC8;
+    box-shadow: 0 0 50px #74ADC8;
 }
 
 .portfolio-name:hover .portfolio-details{
@@ -277,7 +283,10 @@ section:nth-child(2n){
     top: 0;
     left: 0;
     height: 100%;
-    color: transparent;
+    /* color: transparent; */
+    background-color: #0706069b;
+    color: whitesmoke;
+
     text-align: center;
     padding: 10px;
 }
@@ -418,7 +427,7 @@ section:nth-child(2n){
 
 .timeline-logo{
     position: absolute;
-    width: 50px;
+    width: 70px;
     overflow: hidden;
 }
 
