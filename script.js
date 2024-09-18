@@ -102,3 +102,4 @@ function scrollVertically(targetSectionId){
         window.scrollBy(0,50);
     }
 }
+
